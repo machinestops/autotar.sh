@@ -1,0 +1,5 @@
+autotar.sh is a script that generates a gzip-compressed self-extracting archive from a directory.
+
+Usage: autotar.sh FILE DIRECTORY
+DIRECTORY must contain 'autorun.sh', which is executed when the archive extracts itself.
+The archive will be written to FILE.
